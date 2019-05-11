@@ -65,6 +65,7 @@ export default class Index extends React.Component {
                       className="input"
                       type={'text'}
                       name={'nimi'}
+                      placeholder={'Nimi'}
                       onChange={this.handleChange}
                       id={'nimi'}
                       required={true}
@@ -80,6 +81,7 @@ export default class Index extends React.Component {
                       className="input"
                       type={'email'}
                       name={'email'}
+                      placeholder={'Email'}
                       onChange={this.handleChange}
                       id={'email'}
                       required={true}
@@ -88,7 +90,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Toode:
+                    Sõnum:
                   </label>
                   <div className="control">
                     <textarea
@@ -132,7 +134,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <button className="button is-link" type="submit">
+                  <button className="button is-primary is-outlined" type="submit">
                     Saada
                   </button>
                 </div>

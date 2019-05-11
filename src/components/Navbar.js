@@ -35,14 +35,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-transparent is-fixed-top"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Pakendamine" style={{ width: '88px' }} />
+              <img src={logo} alt="Pakendamine" style={{ width: '208px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -60,23 +60,26 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item" to="/kasikiled">
                 Käsikiled
               </Link>
-              <Link className="navbar-item" to="/kasikiled">
+              <Link className="navbar-item" to="/masinkiled">
                 Masinkiled
               </Link>
-              <Link className="navbar-item" to="/masinkiled">
+              <Link className="navbar-item" to="/tooted">
                 Tooted
               </Link>
               <Link className="navbar-item" to="/kontakt">
                 Kontakt
               </Link>
+              <Link className="navbar-item" to="/kontakt">
+                Hinnapäring
+              </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+                href="https://github.com/lavahands"
                 target="_blank"
                 rel="noopener noreferrer"
               >
