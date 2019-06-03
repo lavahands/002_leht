@@ -15,8 +15,6 @@ Tähe  ärikvartal Tähe 127
 
 EELNEVALT KOKKULEPPIDA
 
-
-
 ## Hardi Saaliste
 
 Juhataja/Müük

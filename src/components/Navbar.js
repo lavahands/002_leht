@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+import phone from '../img/phone-square-solid.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -72,20 +72,19 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/kontakt">
                 Kontakt
               </Link>
-              <Link className="navbar-item" to="/kontakt">
+              <Link className="navbar-item" to="/paring">
                 Hinnapäring
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/lavahands"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="tel:+37253484700"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={phone} alt="Telefon" />
                 </span>
+                <span>+372 53 48 4700</span>
               </a>
             </div>
           </div>
